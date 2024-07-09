@@ -13,9 +13,36 @@
       <div class="px-5 py-4">
         <div class="is-flex is-gap-4 is-align-items-center is-justify-content-space-between">
           <div class="card-title">
-            <h1 class="fs-4 fw-600">User List</h1>
+            <h1 class="fs-5 fw-600 lh-1">Users</h1>
+            <ul class="breadcrumbs mt-1">
+              <li>
+                <a href="index.php">Dashboard</a>
+              </li>
+              <li class="active">Users</li>
+            </ul>
           </div>
           <div class="is-flex is-align-items-center is-justify-content-end is-gap-3">
+            <div class="form-group mb-0">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-icon btn-outline-gray" type="button" data-toggle="dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sort-ascending" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M4 6l7 0"></path>
+                  <path d="M4 12l7 0"></path>
+                  <path d="M4 18l9 0"></path>
+                  <path d="M15 9l3 -3l3 3"></path>
+                  <path d="M18 6l0 12"></path>
+                </svg>
+              </button>
+              <div class="dropdown-menu pt-1 pb-1">
+                <a class="dropdown-item" href="#">Sort By - A to Z</a>
+                <a class="dropdown-item" href="#">Sort By - Z to A</a>
+                <a class="dropdown-item" href="#">Created At First</a>
+                <a class="dropdown-item" href="#">Created At Last</a>
+              </div>
+            </div>
             <a class="btn btn-icon btn-outline btn-outline-primary" href="#" open-sidebar="filter-sidebar">
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-filter" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -33,13 +60,14 @@
               <table class="theme-table">
                 <thead>
                   <tr>
-                    <th class="th-with-dropdown">No
+                    <th class="th-with-dropdown active">Order
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -47,10 +75,11 @@
                     <th class="th-with-dropdown">User
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -58,10 +87,11 @@
                     <th class="th-with-dropdown">Contact No
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -69,10 +99,11 @@
                     <th class="th-with-dropdown">Role
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -80,10 +111,11 @@
                     <th class="th-with-dropdown">Department
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -91,10 +123,11 @@
                     <th class="th-with-dropdown">Designation
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -102,10 +135,11 @@
                     <th class="th-with-dropdown">Date Range
                       <div class="table-filter">
                         <a href="#">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrows-sort">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-arrow-down">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 9l4 -4l4 4m-4 -4v14" />
-                            <path d="M21 15l-4 4l-4 -4m4 4v-14" />
+                            <path d="M12 5l0 14" />
+                            <path d="M18 13l-6 6" />
+                            <path d="M6 13l6 6" />
                           </svg>
                         </a>
                       </div>
@@ -113,9 +147,18 @@
                     <th class="text-center">Actions</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody id="handle-list-1">
                   <tr>
-                    <td>1</td>
+                    <td>
+                      <div class="is-flex is-align-items-center is-gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-direction drag-handle cursor-pointer">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M9 10l3 -3l3 3" />
+                          <path d="M9 14l3 3l3 -3" />
+                        </svg>
+                        1
+                      </div>
+                    </td>
                     <td>
                       <div class="tag-rounded-wrapper">
                         <div class="tag-rounded tag-rounded-gray">
@@ -139,6 +182,15 @@
                             </svg>
                           </div>(+91) 8460133131
                         </span>
+                        <span class="tag tag-with-icon tag-gray">
+                          <div class="tag-icon mr-2 pr-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+                              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                              <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+                              <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+                            </svg>
+                          </div>(+91) 9876543210
+                        </span>
                       </div>
                     </td>
                     <td><span class="tag tag-primary">Master HR</span></td>
@@ -146,14 +198,14 @@
                     <td><span class="tag tag-primary">Director</span></td>
                     <td>
                       <div class="theme-date-list">
-                        <div class="theme-date" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Create : Fri, Feb 10, 2023 05:23 PM">
+                        <div class="theme-date" data-tooltip="Create : Fri, Feb 10, 2023 05:23 PM">
                           <div class="theme-date-content">
                             <small>Jun</small>
                             <span>03</span>
                           </div>
                           <span class="theme-date-footer">2024</span>
                         </div>
-                        <div class="theme-date" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Update : Fri, Feb 10, 2023 05:23 PM">
+                        <div class="theme-date" data-tooltip="Update : Fri, Feb 10, 2023 05:23 PM">
                           <div class="theme-date-content">
                             <small>Jun</small>
                             <span>03</span>
@@ -171,7 +223,14 @@
                             <path d="M13.5 6.5l4 4"></path>
                           </svg>
                         </a>
-                        <a href="#">
+                        <a href="#" open-sidebar="view-users-sidebar">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                            <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                          </svg>
+                        </a>
+                        <a href="#" open-sidebar="delete-sidebar">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M4 7l16 0"></path>
@@ -185,7 +244,16 @@
                     </td>
                   </tr>
                   <tr>
-                    <td>2</td>
+                    <td>
+                      <div class="is-flex is-align-items-center is-gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-direction drag-handle cursor-pointer">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <path d="M9 10l3 -3l3 3" />
+                          <path d="M9 14l3 3l3 -3" />
+                        </svg>
+                        2
+                      </div>
+                    </td>
                     <td>
                       <div class="tag-rounded-wrapper">
                         <div class="tag-rounded tag-rounded-gray">
@@ -221,14 +289,14 @@
                     <td><span class="tag tag-primary">Sr. Web Designer</span></td>
                     <td>
                       <div class="theme-date-list">
-                        <div class="theme-date" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Create : Fri, Feb 10, 2023 05:23 PM">
+                        <div class="theme-date" data-tooltip="Create : Fri, Feb 10, 2023 05:23 PM">
                           <div class="theme-date-content">
                             <small>Jun</small>
                             <span>03</span>
                           </div>
                           <span class="theme-date-footer">2024</span>
                         </div>
-                        <div class="theme-date" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-original-title="Update : Fri, Feb 10, 2023 05:23 PM">
+                        <div class="theme-date" data-tooltip="Update : Fri, Feb 10, 2023 05:23 PM">
                           <div class="theme-date-content">
                             <small>Jun</small>
                             <span>03</span>
@@ -246,7 +314,14 @@
                             <path d="M13.5 6.5l4 4"></path>
                           </svg>
                         </a>
-                        <a href="#">
+                        <a href="#" open-sidebar="view-users-sidebar">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-eye">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+                            <path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" />
+                          </svg>
+                        </a>
+                        <a href="#" open-sidebar="delete-sidebar">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-trash" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M4 7l16 0"></path>
@@ -262,6 +337,60 @@
                 </tbody>
               </table>
             </div>
+          </div>
+          <div class="card-footer is-align-items-center is-flex is-gap-3 is-justify-content-space-between px-5 pb-5">
+            <span class="fs-7 gray-700">Showing 1 to 5 of 5 Entries</span>
+            <ul class="pagination ml-auto">
+              <li class="page-item">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevrons-left">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M11 7l-5 5l5 5"></path>
+                    <path d="M17 7l-5 5l5 5"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-item">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M15 6l-6 6l6 6"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-item active">
+                <a href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a href="#">2</a>
+              </li>
+              <li class="page-item">
+                <a href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a href="#">4</a>
+              </li>
+              <li class="page-item">
+                <a href="#">5</a>
+              </li>
+              <li class="page-item">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 6l6 6l-6 6"></path>
+                  </svg>
+                </a>
+              </li>
+              <li class="page-item">
+                <a href="#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevrons-right">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M7 7l5 5l-5 5"></path>
+                    <path d="M13 7l5 5l-5 5"></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -287,15 +416,48 @@
       <div class="theme-sidebar-detail">
         <form class="form" action="">
           <div class="theme-sidebar-content theme-scrollbar">
-          </div>
-          <div class="theme-sidebar-footer">
-            <a class="btn btn-primary w-100" href="#">Submit</a>
+            <div class="card">
+              <div class="columns is-gapless">
+                <div class="border-right column">
+                  <div class="bg-gray-200 px-4 py-2">
+                    <span class="fs-8 fw-500 gray-800">Select Time Range</span>
+                  </div>
+                  <div class="p-2">
+                    <button type="button" class="dropdown-item m-0">Today</button>
+                    <button type="button" class="dropdown-item m-0">Yesterday</button>
+                    <button type="button" class="dropdown-item m-0">This Week</button>
+                    <button type="button" class="dropdown-item m-0">Last Week</button>
+                    <button type="button" class="dropdown-item m-0">Month to Date</button>
+                    <button type="button" class="dropdown-item m-0">Last Month</button>
+                    <button type="button" class="dropdown-item m-0">Year to Date</button>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="bg-gray-200 px-4 py-2">
+                    <span class="fs-8 fw-500 gray-800">Select Data</span>
+                  </div>
+                  <div class="p-4">
+                    <div class="form-group">
+                      <label class="form-label">From Date</label>
+                      <input type="text" class="form-control flatpickr-date flatpickr-input" placeholder="DD-MM-YYYY" readonly="readonly">
+                    </div>
+                    <div class="form-group">
+                      <label class="form-label">To Date</label>
+                      <input type="text" class="form-control flatpickr-date" placeholder="DD-MM-YYYY">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5">
+              <a class="btn btn-primary w-100" href="#">Submit</a>
+            </div>
           </div>
         </form>
       </div>
     </div>
   </div>
-  <div id="add-users-sidebar" class="theme-sidebar theme-sidebar-sm form-group-lg">
+  <div id="add-users-sidebar" class="theme-sidebar theme-sidebar-sm">
     <div class="theme-sidebar-card">
       <div class="theme-sidebar-header">
         <h5 class="theme-sidebar-title">Add User</h5>
@@ -315,22 +477,22 @@
             <div class="columns is-multiline">
               <div class="column is-12 col-form">
                 <div class="form-group">
-                  <label class="floating-label">First Name*</label>
+                  <label class="form-label">First Name*</label>
                   <input type="text" class="form-control">
                 </div>
               </div>
               <div class="column is-12 col-form">
                 <div class="form-group">
-                  <label class="floating-label">Last Name*</label>
+                  <label class="form-label">Last Name*</label>
                   <input type="text" class="form-control">
                 </div>
               </div>
               <div class="column is-12 col-form">
+                <label class="form-label">Phone*</label>
                 <div class="form-group-combine">
                   <div class="columns is-gapless is-is-flex-wrap-nowrap">
                     <div class="column select-sm">
                       <div class="form-group select-country custom-select select-sm">
-                        <label class="floating-label">Code*</label>
                         <select name="" class="form-control select">
                           <option value="">Code*</option>
                           <option selected value="+91">+91</option>
@@ -340,7 +502,6 @@
                     <div class="column">
                       <div class="form-group">
                         <input type="text" class="form-control">
-                        <label class="floating-label">Phone</label>
                       </div>
                     </div>
                   </div>
@@ -348,7 +509,7 @@
               </div>
               <div class="column is-12 col-form">
                 <div class="form-group custom-select">
-                  <label class="floating-label">Role</label>
+                  <label class="form-label">Role</label>
                   <select name="" class="form-control select">
                     <option value="">Role</option>
                     <option value="Option 1">Option 1</option>
@@ -359,7 +520,7 @@
               </div>
               <div class="column is-12 col-form">
                 <div class="form-group custom-select">
-                  <label class="floating-label">Department</label>
+                  <label class="form-label">Department</label>
                   <select name="" class="form-control select">
                     <option value="">Department</option>
                     <option value="Option 1">Option 1</option>
@@ -370,7 +531,7 @@
               </div>
               <div class="column is-12 col-form">
                 <div class="form-group custom-select">
-                  <label class="floating-label">Designation</label>
+                  <label class="form-label">Designation</label>
                   <select name="" class="form-control select">
                     <option value="">Designation</option>
                     <option value="Option 1">Option 1</option>
@@ -379,10 +540,129 @@
                   </select>
                 </div>
               </div>
+              <div class="column is-12 col-form">
+                <a class="btn btn-primary w-100" href="#">Submit</a>
+              </div>
             </div>
           </div>
-          <div class="theme-sidebar-footer">
-            <a class="btn btn-primary w-100" href="#">Submit</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="view-users-sidebar" class="theme-sidebar theme-sidebar-sm">
+    <div class="theme-sidebar-card">
+      <div class="theme-sidebar-header">
+        <h5 class="theme-sidebar-title">View User</h5>
+        <div class="theme-sidebar-action">
+          <span class="close-sidebar" close-sidebar>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="theme-sidebar-detail">
+        <div class="theme-sidebar-content theme-scrollbar">
+          <div class="view-item-wrapper">
+            <div class="view-item">
+              <span class="view-label">Name</span>
+              <span class="view-value">John Doe</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Phone</span>
+              <span class="view-value">+91 98765 43210</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Role</span>
+              <span class="view-value">Master HR</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Department</span>
+              <span class="view-value">Management</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Designation</span>
+              <span class="view-value">Director</span>
+            </div>
+          </div>
+          <div class="view-item-wrapper theme-radius border p-5">
+            <div class="view-item">
+              <span class="view-label">Name</span>
+              <span class="view-value">John Doe</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Phone</span>
+              <span class="view-value">+91 98765 43210</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Role</span>
+              <span class="view-value">Master HR</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Department</span>
+              <span class="view-value">Management</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Designation</span>
+              <span class="view-value">Director</span>
+            </div>
+          </div>
+          <div class="view-item-wrapper theme-radius bg-light border p-5">
+            <div class="view-item">
+              <span class="view-label">Name</span>
+              <span class="view-value">John Doe</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Phone</span>
+              <span class="view-value">+91 98765 43210</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Role</span>
+              <span class="view-value">Master HR</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Department</span>
+              <span class="view-value">Management</span>
+            </div>
+            <div class="view-item">
+              <span class="view-label">Designation</span>
+              <span class="view-value">Director</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="delete-sidebar" class="theme-sidebar theme-sidebar-sm">
+    <div class="theme-sidebar-card">
+      <div class="theme-sidebar-header">
+        <h5 class="theme-sidebar-title">Delete</h5>
+        <div class="theme-sidebar-action">
+          <span class="close-sidebar" close-sidebar>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="theme-sidebar-detail">
+        <form class="form" action="">
+          <div class="theme-sidebar-content theme-scrollbar">
+            <div class="columns is-multiline">
+              <div class="column is-12 col-form">
+                <div class="form-group">
+                  <label class="form-label">Type "DELETE" in Input Box*</label>
+                  <input type="text" class="form-control" placeholder="DELETE">
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <a class="btn btn-danger w-100" href="#">DELETE</a>
+              </div>
+            </div>
           </div>
         </form>
       </div>

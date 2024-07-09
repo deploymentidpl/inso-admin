@@ -3,9 +3,9 @@
 <link rel=preload href="media/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Inso Admin</title>
-<meta name="description" content=""/>
-<meta name="keywords" content=""/>
-<meta name="robots" content="index,follow"/>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="robots" content="index,follow" />
 <link rel="canonical" href="" />
 <meta name="author" content="">
 <meta name="thumbnail" content="" />
@@ -32,7 +32,7 @@
 <link rel="apple-touch-icon" sizes="144x144" href="media/favicon/apple-icon-144x144.png">
 <link rel="apple-touch-icon" sizes="152x152" href="media/favicon/apple-icon-152x152.png">
 <link rel="apple-touch-icon" sizes="180x180" href="media/favicon/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="media/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="192x192" href="media/favicon/android-icon-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="media/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="96x96" href="media/favicon/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="media/favicon/favicon-16x16.png">
@@ -44,10 +44,22 @@
 <link rel="icon" href="media/favicon/favicon.ico" type="image/x-icon">
 
 
-<!--Common CSS-->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
-<link rel="stylesheet" type="text/css" href="media/css/bulma.min.css">
-<link rel="stylesheet" type="text/css" href="media/css/all-custom.css">
-<link rel="stylesheet" type="text/css" href="media/css/all-responsive.css">
-<!--End Common CSS-->
 
+<link rel="stylesheet" type="text/css" href="media/css/bulma.min.css" />
+<link rel="stylesheet" type="text/css" href="media/css/bulma-tooltip.min.css" />
+<!--Select2-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
+<!--End Select2-->
+<!--Flatpickr-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+<!--End Flatpickr-->
+<!--Dropzone-->
+<link rel="stylesheet" href="media/css/dropzone.css" />
+<!--End Dropzone-->
+<!--Quill Editor-->
+<link rel="stylesheet" href="media/css/typography.css" />
+<link rel="stylesheet" href="media/css/katex.css" />
+<link rel="stylesheet" href="media/css/editor.css" />
+<!--End Quill Editor-->
+<link rel="stylesheet" type="text/css" href="media/css/all-custom.css" />
+<link rel="stylesheet" type="text/css" href="media/css/all-responsive.css" />
