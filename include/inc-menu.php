@@ -15,7 +15,7 @@
   </a>
   <div class="theme-menu-logo">
     <img class="theme-menu-logo-default" src="media/images/logo-dark.svg" alt="Logo" />
-    <img class="theme-menu-logo-minimize" src="media/images/logo-element-dark.svg" alt="Logo" />
+    <img class="theme-menu-logo-minimize" src="media/images/inso-owl-logo.svg" alt="Logo" />
   </div>
   <div class="theme-menu-detail theme-scrollbar">
     <div class="menu-item-wrapper">

@@ -146,7 +146,7 @@
                     </th>
                     <th class="text-center">Actions</th>
                   </tr>
-                </thead>
+                </thead>  
                 <tbody id="handle-list-1">
                   <tr>
                     <td>
@@ -216,7 +216,7 @@
                     </td>
                     <td class="table-actions-wrapper">
                       <div class="table-actions">
-                        <a href="#">
+                        <a href="#" open-sidebar="edit-users-sidebar">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
@@ -307,7 +307,7 @@
                     </td>
                     <td class="table-actions-wrapper">
                       <div class="table-actions">
-                        <a href="#">
+                        <a href="#" open-sidebar="edit-users-sidebar">
                           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pencil" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                             <path d="M4 20h4l10.5 -10.5a2.828 2.828 0 1 0 -4 -4l-10.5 10.5v4"></path>
@@ -537,6 +537,98 @@
                     <option value="Option 1">Option 1</option>
                     <option value="Option 2">Option 2</option>
                     <option value="Option 3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <a class="btn btn-primary w-100" href="#">Submit</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="edit-users-sidebar" class="theme-sidebar theme-sidebar-sm">
+    <div class="theme-sidebar-card">
+      <div class="theme-sidebar-header">
+        <h5 class="theme-sidebar-title">Edit User</h5>
+        <div class="theme-sidebar-action">
+          <span class="close-sidebar" close-sidebar>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M18 6l-12 12" />
+              <path d="M6 6l12 12" />
+            </svg>
+          </span>
+        </div>
+      </div>
+      <div class="theme-sidebar-detail">
+        <form class="form" action="">
+          <div class="theme-sidebar-content theme-scrollbar">
+            <div class="columns is-multiline">
+              <div class="column is-12 col-form">
+                <div class="form-group">
+                  <label class="form-label">First Name*</label>
+                  <input type="text" class="form-control" value="John">
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <div class="form-group">
+                  <label class="form-label">Last Name*</label>
+                  <input type="text" class="form-control" value="Doe">
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <label class="form-label">Phone*</label>
+                <div class="form-group-combine">
+                  <div class="columns is-gapless is-is-flex-wrap-nowrap">
+                    <div class="column select-sm">
+                      <div class="form-group select-country custom-select select-sm">
+                        <select name="" class="form-control select">
+                          <option value="">Code*</option>
+                          <option selected value="+91">+91</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="column">
+                      <div class="form-group">
+                        <input type="text" class="form-control" value="9876543210">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <div class="form-group custom-select">
+                  <label class="form-label">Role</label>
+                  <select name="" class="form-control select">
+                    <option value="">Role</option>
+                    <option value="Option 1" selected>Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <div class="form-group custom-select">
+                  <label class="form-label">Department</label>
+                  <select name="" class="form-control select">
+                    <option value="">Department</option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2" selected>Option 2</option>
+                    <option value="Option 3">Option 3</option>
+                  </select>
+                </div>
+              </div>
+              <div class="column is-12 col-form">
+                <div class="form-group custom-select">
+                  <label class="form-label">Designation</label>
+                  <select name="" class="form-control select">
+                    <option value="">Designation</option>
+                    <option value="Option 1">Option 1</option>
+                    <option value="Option 2">Option 2</option>
+                    <option value="Option 3" selected>Option 3</option>
                   </select>
                 </div>
               </div>

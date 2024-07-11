@@ -58,8 +58,8 @@
 
 	toggleButton.addEventListener('click', toggleMenu);
 	closeButton.addEventListener('click', toggleMenu);
-	
-	
+
+
 	document.addEventListener("DOMContentLoaded", function() {
 		const themeMenuWrapper = document.querySelector('.theme-menu-wrapper');
 		const themeMenuToggle = document.querySelector('.theme-menu-toggle');
@@ -203,6 +203,66 @@
 		}
 	}
 	/**End Password**/
+
+	/**Toast**/
+	$('.toast').on('click', function() {
+		var position = $(this).data('position');
+		showToast('This is a ' + position.replace('-', ' ') + ' toast!', position);
+	});
+
+	function showToast(message, position) {
+		var containerClass = 'toast-container ' + position;
+		var container = $('.' + containerClass);
+
+		// Create the container if it doesn't exist
+		if (container.length === 0) {
+			container = $('<div></div>').addClass(containerClass);
+			$('body').append(container);
+		}
+
+		var toast = $(
+			'<div class="toast-message-block">' +
+			'<span class="toast-icon">🔔</span>' +
+			'<span class="toast-message">' + message + '</span>' +
+			'</div>'
+		);
+		container.append(toast);
+		toast.addClass('show');
+
+		// Remove toast after 3 seconds
+		setTimeout(function() {
+			toast.removeClass('show');
+			setTimeout(function() {
+				toast.remove();
+				if (container.children().length === 0) {
+					container.remove();
+				}
+			}, 500); // Wait for the fade-out transition
+		}, 3000);
+	}
+	/**End Toast**/
+
+	/**Modal**/
+	$(".open-modal-btn").click(function() {
+		var modalId = $(this).data("modal");
+		$("#" + modalId).addClass("active");
+		$("html").addClass("active-modal");
+	});
+
+	$(".theme-modal-close").click(function() {
+		$(this).closest(".theme-modal").removeClass("active");
+		$("html").removeClass("active-modal");
+	});
+
+	/*$(window).click(function(event) {
+		if ($(event.target).hasClass("theme-modal")) {
+			$(event.target).removeClass("active");
+			$("html").removeClass("active-modal");
+		}
+	});*/
+	/**End Modal**/
+
+
 
 	/**Form Group**/
 	$('.form-group').find('.form-control').each(function(index, ele) {

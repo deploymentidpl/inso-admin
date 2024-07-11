@@ -1424,6 +1424,30 @@
                     <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
                   </svg></a>
               </div>
+
+              <div class="mb-4">
+                <h4 class="fs-5 fw-600 mb-2">Toast</h4>
+                <div class="is-flex is-flex-wrap-wrap is-gap-3 mb-4">
+                  <button class="toast btn btn-primary" data-position="top-left">Top Left</button>
+                  <button class="toast btn btn-primary" data-position="top-right">Top Right</button>
+                  <button class="toast btn btn-primary" data-position="bottom-left">Bottom Left</button>
+                  <button class="toast btn btn-primary" data-position="bottom-right">Bottom Right</button>
+                  <button class="toast btn btn-primary" data-position="top-center">Top Center</button>
+                  <button class="toast btn btn-primary" data-position="bottom-center">Bottom Center</button>
+                </div>
+              </div>
+
+              <div class="mb-4">
+                <h4 class="fs-5 fw-600 mb-2">Modal</h4>
+                <div class="is-flex is-flex-wrap-wrap is-gap-3 mb-4">
+                  <button class="btn btn-primary open-modal-btn" data-modal="modal-xl">Modal XL</button>
+                  <button class="btn btn-primary open-modal-btn" data-modal="modal-lg">Modal LG</button>
+                  <button class="btn btn-primary open-modal-btn" data-modal="modal-md">Modal MD</button>
+                  <button class="btn btn-primary open-modal-btn" data-modal="modal-sm">Modal SM</button>
+                  <button class="btn btn-primary open-modal-btn" data-modal="modal-xs">Modal XS</button>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -1436,7 +1460,122 @@
     </div>
     <?php require_once("include/inc-footer.php"); ?>
   </div>
+  <!-- Modals -->
+  <div id="modal-xl" class="theme-modal">
+    <div class="theme-modal-content theme-modal-xl">
+      <div class="theme-modal-header">
+        <h2>Extra Large Modal</h2>
+        <div class="theme-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+      <div class="theme-modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc sit amet quam gravida eleifend sit amet in nulla. Duis dignissim et mi ac tempor. Praesent mollis fermentum ultricies. Morbi sed augue tortor. Phasellus ac eleifend lacus. Vivamus sed lectus interdum dui rutrum dictum vel vel augue. Donec convallis tempor quam et mattis. Phasellus urna dolor, fermentum ac quam ac, venenatis condimentum enim. Sed viverra et tortor ut commodo. Nunc egestas enim ut libero eleifend, non commodo urna ultrices.</p>
+        <p>Phasellus non feugiat tellus. Proin in cursus est. Nam fringilla blandit velit at venenatis. Vivamus eget dui pharetra, pretium nulla et, commodo arcu. Aenean ex justo, finibus et euismod et, blandit at nisl. Aenean arcu nisl, rutrum sit amet dolor et, ornare tempus dolor. Nam posuere vestibulum dui, vel tristique tortor gravida eget. Nullam a tellus mi. Sed et ex vitae lorem finibus dapibus vitae vitae purus. Sed luctus feugiat orci, in porta augue iaculis sit amet. Praesent efficitur massa arcu, eget venenatis ex lacinia nec. Nunc ut congue erat. Morbi elementum mauris justo, nec facilisis est pharetra a.</p>
+        <p>Phasellus in leo laoreet sem ullamcorper varius quis sed mauris. Nullam vitae tellus arcu. Morbi aliquam tellus quis elit maximus, vel ullamcorper neque posuere. Nulla augue erat, ornare fringilla neque ac, pharetra placerat diam. Morbi tincidunt, nunc non vehicula suscipit, massa ex faucibus libero, in rhoncus nisl neque eget eros. Quisque justo sapien, tincidunt et finibus lobortis, blandit ac ipsum. Sed quis convallis massa. Nullam sit amet arcu ligula. Nunc egestas rhoncus rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut efficitur laoreet nibh, ut suscipit leo consectetur ac. Aliquam luctus eget nisl sed tincidunt. Donec vitae dui eu eros maximus sodales vitae et felis. Aliquam bibendum luctus lectus vitae pulvinar. Nulla ullamcorper volutpat enim, eu viverra ante tincidunt eu.</p>
+        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non faucibus sem. Cras convallis magna a nulla iaculis, nec lobortis tellus placerat. Mauris euismod vel diam nec placerat. Vestibulum ultrices ipsum ac fermentum eleifend. Aliquam a mi purus. Nunc hendrerit tellus et egestas tempus. Pellentesque ullamcorper est eget nisi lacinia feugiat. Nulla facilisi. Nulla feugiat enim at dignissim rhoncus. Sed tristique eget neque et rhoncus.</p>
+        <p>Quisque tincidunt neque vel nunc dictum tempus. Integer vitae elit sed enim pulvinar interdum eu at neque. Quisque ultricies laoreet elit, nec suscipit risus porta vitae. In nec scelerisque nunc. Proin tristique felis ut luctus fringilla. Sed commodo mattis urna, tristique consectetur nulla. Cras vitae convallis felis, in rutrum arcu. Nunc semper faucibus facilisis. Sed commodo est at elit luctus commodo. Sed ut vulputate sem. Duis feugiat nisi sed rutrum laoreet. Suspendisse in felis vitae est fermentum rutrum vel non tellus. Proin elementum volutpat nisi, quis faucibus nunc rutrum non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum justo sapien, volutpat suscipit imperdiet pretium, malesuada sed ante.</p>
+      </div>
+      <div class="theme-modal-footer">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
   </div>
+
+  <div id="modal-lg" class="theme-modal">
+    <div class="theme-modal-content theme-modal-lg">
+      <div class="theme-modal-header">
+        <h2>Large Modal</h2>
+        <div class="theme-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+      <div class="theme-modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc sit amet quam gravida eleifend sit amet in nulla. Duis dignissim et mi ac tempor. Praesent mollis fermentum ultricies. Morbi sed augue tortor. Phasellus ac eleifend lacus. Vivamus sed lectus interdum dui rutrum dictum vel vel augue. Donec convallis tempor quam et mattis. Phasellus urna dolor, fermentum ac quam ac, venenatis condimentum enim. Sed viverra et tortor ut commodo. Nunc egestas enim ut libero eleifend, non commodo urna ultrices.</p>
+        <p>Phasellus non feugiat tellus. Proin in cursus est. Nam fringilla blandit velit at venenatis. Vivamus eget dui pharetra, pretium nulla et, commodo arcu. Aenean ex justo, finibus et euismod et, blandit at nisl. Aenean arcu nisl, rutrum sit amet dolor et, ornare tempus dolor. Nam posuere vestibulum dui, vel tristique tortor gravida eget. Nullam a tellus mi. Sed et ex vitae lorem finibus dapibus vitae vitae purus. Sed luctus feugiat orci, in porta augue iaculis sit amet. Praesent efficitur massa arcu, eget venenatis ex lacinia nec. Nunc ut congue erat. Morbi elementum mauris justo, nec facilisis est pharetra a.</p>
+        <p>Phasellus in leo laoreet sem ullamcorper varius quis sed mauris. Nullam vitae tellus arcu. Morbi aliquam tellus quis elit maximus, vel ullamcorper neque posuere. Nulla augue erat, ornare fringilla neque ac, pharetra placerat diam. Morbi tincidunt, nunc non vehicula suscipit, massa ex faucibus libero, in rhoncus nisl neque eget eros. Quisque justo sapien, tincidunt et finibus lobortis, blandit ac ipsum. Sed quis convallis massa. Nullam sit amet arcu ligula. Nunc egestas rhoncus rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut efficitur laoreet nibh, ut suscipit leo consectetur ac. Aliquam luctus eget nisl sed tincidunt. Donec vitae dui eu eros maximus sodales vitae et felis. Aliquam bibendum luctus lectus vitae pulvinar. Nulla ullamcorper volutpat enim, eu viverra ante tincidunt eu.</p>
+        <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam non faucibus sem. Cras convallis magna a nulla iaculis, nec lobortis tellus placerat. Mauris euismod vel diam nec placerat. Vestibulum ultrices ipsum ac fermentum eleifend. Aliquam a mi purus. Nunc hendrerit tellus et egestas tempus. Pellentesque ullamcorper est eget nisi lacinia feugiat. Nulla facilisi. Nulla feugiat enim at dignissim rhoncus. Sed tristique eget neque et rhoncus.</p>
+      </div>
+      <div class="theme-modal-footer">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-md" class="theme-modal">
+    <div class="theme-modal-content theme-modal-md">
+      <div class="theme-modal-header">
+        <h2>Medium Modal</h2>
+        <div class="theme-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+      <div class="theme-modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc sit amet quam gravida eleifend sit amet in nulla. Duis dignissim et mi ac tempor. Praesent mollis fermentum ultricies. Morbi sed augue tortor. Phasellus ac eleifend lacus. Vivamus sed lectus interdum dui rutrum dictum vel vel augue. Donec convallis tempor quam et mattis. Phasellus urna dolor, fermentum ac quam ac, venenatis condimentum enim. Sed viverra et tortor ut commodo. Nunc egestas enim ut libero eleifend, non commodo urna ultrices.</p>
+        <p>Phasellus non feugiat tellus. Proin in cursus est. Nam fringilla blandit velit at venenatis. Vivamus eget dui pharetra, pretium nulla et, commodo arcu. Aenean ex justo, finibus et euismod et, blandit at nisl. Aenean arcu nisl, rutrum sit amet dolor et, ornare tempus dolor. Nam posuere vestibulum dui, vel tristique tortor gravida eget. Nullam a tellus mi. Sed et ex vitae lorem finibus dapibus vitae vitae purus. Sed luctus feugiat orci, in porta augue iaculis sit amet. Praesent efficitur massa arcu, eget venenatis ex lacinia nec. Nunc ut congue erat. Morbi elementum mauris justo, nec facilisis est pharetra a.</p>
+        <p>Phasellus in leo laoreet sem ullamcorper varius quis sed mauris. Nullam vitae tellus arcu. Morbi aliquam tellus quis elit maximus, vel ullamcorper neque posuere. Nulla augue erat, ornare fringilla neque ac, pharetra placerat diam. Morbi tincidunt, nunc non vehicula suscipit, massa ex faucibus libero, in rhoncus nisl neque eget eros. Quisque justo sapien, tincidunt et finibus lobortis, blandit ac ipsum. Sed quis convallis massa. Nullam sit amet arcu ligula. Nunc egestas rhoncus rhoncus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut efficitur laoreet nibh, ut suscipit leo consectetur ac. Aliquam luctus eget nisl sed tincidunt. Donec vitae dui eu eros maximus sodales vitae et felis. Aliquam bibendum luctus lectus vitae pulvinar. Nulla ullamcorper volutpat enim, eu viverra ante tincidunt eu.</p>
+      </div>
+      <div class="theme-modal-footer">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-sm" class="theme-modal">
+    <div class="theme-modal-content theme-modal-sm">
+      <div class="theme-modal-header">
+        <h2>Small Modal</h2>
+        <div class="theme-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+      <div class="theme-modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc sit amet quam gravida eleifend sit amet in nulla. Duis dignissim et mi ac tempor. Praesent mollis fermentum ultricies. Morbi sed augue tortor. Phasellus ac eleifend lacus. Vivamus sed lectus interdum dui rutrum dictum vel vel augue. Donec convallis tempor quam et mattis. Phasellus urna dolor, fermentum ac quam ac, venenatis condimentum enim. Sed viverra et tortor ut commodo. Nunc egestas enim ut libero eleifend, non commodo urna ultrices.</p>
+        <p>Phasellus non feugiat tellus. Proin in cursus est. Nam fringilla blandit velit at venenatis. Vivamus eget dui pharetra, pretium nulla et, commodo arcu. Aenean ex justo, finibus et euismod et, blandit at nisl. Aenean arcu nisl, rutrum sit amet dolor et, ornare tempus dolor. Nam posuere vestibulum dui, vel tristique tortor gravida eget. Nullam a tellus mi. Sed et ex vitae lorem finibus dapibus vitae vitae purus. Sed luctus feugiat orci, in porta augue iaculis sit amet. Praesent efficitur massa arcu, eget venenatis ex lacinia nec. Nunc ut congue erat. Morbi elementum mauris justo, nec facilisis est pharetra a.</p>
+      </div>
+      <div class="theme-modal-footer">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal-xs" class="theme-modal">
+    <div class="theme-modal-content theme-modal-xs">
+      <div class="theme-modal-header">
+        <h2>Extra Small Modal</h2>
+        <div class="theme-modal-close">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M18 6l-12 12" />
+            <path d="M6 6l12 12" />
+          </svg>
+        </div>
+      </div>
+      <div class="theme-modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis nunc sit amet quam gravida eleifend sit amet in nulla. Duis dignissim et mi ac tempor. Praesent mollis fermentum ultricies. Morbi sed augue tortor. Phasellus ac eleifend lacus. Vivamus sed lectus interdum dui rutrum dictum vel vel augue. Donec convallis tempor quam et mattis. Phasellus urna dolor, fermentum ac quam ac, venenatis condimentum enim. Sed viverra et tortor ut commodo. Nunc egestas enim ut libero eleifend, non commodo urna ultrices.</p>
+      </div>
+      <div class="theme-modal-footer">
+        <button class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+  <!-- End Modals -->
   <?php require_once("include/inc-foot-scripts.php"); ?>
 </body>
 
