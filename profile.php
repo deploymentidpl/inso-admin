@@ -174,6 +174,7 @@
           })
           .then(response => response.json())
           .then(data => {
+          console.error(data)
             alert(data.message);
           })
           .catch(error => {

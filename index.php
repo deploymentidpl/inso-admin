@@ -110,7 +110,7 @@
                     </svg>
                   </button>
                   <div class="dropdown-menu pt-0 pb-1">
-                    <span class="fs-8 fw-bold dark-3 bg-dark-6 d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
+                    <span class="fs-8 fw-bold dark-3 bg-light is-block d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
                     <a class="dropdown-item" href="javascript:void(0);">Today</a>
                     <a class="dropdown-item" href="javascript:void(0);">Yesterday</a>
                     <a class="dropdown-item" href="javascript:void(0);">This Week</a>
@@ -149,7 +149,7 @@
                     </svg>
                   </button>
                   <div class="dropdown-menu pt-0 pb-1">
-                    <span class="fs-8 fw-bold dark-3 bg-dark-6 d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
+                    <span class="fs-8 fw-bold dark-3 bg-light is-block d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
                     <a class="dropdown-item" href="javascript:void(0);">Today</a>
                     <a class="dropdown-item" href="javascript:void(0);">Yesterday</a>
                     <a class="dropdown-item" href="javascript:void(0);">This Week</a>
@@ -188,7 +188,7 @@
                     </svg>
                   </button>
                   <div class="dropdown-menu pt-0 pb-1">
-                    <span class="fs-8 fw-bold dark-3 bg-dark-6 d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
+                    <span class="fs-8 fw-bold dark-3 bg-light is-block d-block px-3 py-2 rounded-top mb-2">Select Time Range</span>
                     <a class="dropdown-item" href="javascript:void(0);">Today</a>
                     <a class="dropdown-item" href="javascript:void(0);">Yesterday</a>
                     <a class="dropdown-item" href="javascript:void(0);">This Week</a>
